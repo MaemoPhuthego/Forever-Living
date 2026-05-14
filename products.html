@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/jpg" href="images/My journey.jpg">
+    <title>Forever Living Products</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <a class="logo" href="index.html">
+            <img src="images/My journey.jpg" alt="Forever Living Logo">
+            Forever <span>Living</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="">Home</a></li>
+            <li><a href="about.html" class="">About</a></li>
+            <li><a href="healthcare.html" class="">Healthcare</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="feedback.html" class="">Feedback</a></li>
+            <li><a href="contact.html" class="">Contact</a></li>
+            <li><a href="sitemap.html" class="">SiteMap</a></li>
+        </ul>
+        <button class="menu-toggle" onclick="openSidebar()" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+</header>
+
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+<aside class="sidebar" id="mobileSidebar">
+    <div class="sidebar-header">
+        <div class="logo">Forever <span>Living</span></div>
+        <button class="close-sidebar" onclick="closeSidebar()" aria-label="Close menu">&times;</button>
+    </div>
+    <ul class="sidebar-links">
+        <li><a href="index.html" class="">Home</a></li>
+        <li><a href="about.html" class="">About</a></li>
+        <li><a href="healthcare.html" class="">Healthcare</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="feedback.html" class="">Feedback</a></li>
+        <li><a href="contact.html" class="">Contact</a></li>
+    </ul>
+</aside>
+
+    <section class="page-section">
+        <h2>Featured Products</h2>
+
+        <div class="category-grid">
+            <div class="category-card">
+                <h3>Digestive Wellness</h3>
+                <p>Aloe-based drinks and gut support favourites.</p>
+            </div>
+            <div class="category-card">
+                <h3>Nutrition &amp; Immunity</h3>
+                <p>Supplements built around everyday nutritional support.</p>
+            </div>
+            <div class="category-card">
+                <h3>Weight Management</h3>
+                <p>Products for structured wellness routines and active lifestyles.</p>
+            </div>
+            <div class="category-card">
+                <h3>Personal Care</h3>
+                <p>Skincare and body care with Aloe at the centre.</p>
+            </div>
+        </div>
+
+        <div class="category-section">
+            <h3 class="category-title">Digestive Wellness</h3>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/Aloevera Gel.jpg" alt="Aloe Vera Gel" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Digestive Health</span>
+                        <h3>Aloe Vera Gel</h3>
+                        <p>Pure inner leaf fillet and one of the brand's flagship products for daily digestive support.</p>
+                        <div class="price">P38.00</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Aloe Bits N' Peaches Suco Pessego Com Aloe Vera (natural).jpg" alt="Forever Aloe Peaches" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Digestive Health</span>
+                        <h3>Forever Aloe Peaches</h3>
+                        <p>A peach-flavoured Aloe drink for people who want the benefits without the "plain Aloe loyalty test".</p>
+                        <div class="price">P40.00</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-section">
+            <h3 class="category-title">Nutrition &amp; Immunity</h3>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/Forever Living Products Italy.jpg" alt="Arctic Sea Omega-3" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Supplement</span>
+                        <h3>Arctic Sea Omega-3</h3>
+                        <p>Premium fish and squid oil supplement formulated to support heart and general wellness goals.</p>
+                        <div class="price">P45.00</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/FL Bee Pollen" alt="Bee Pollen" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Supplement</span>
+                        <h3>Bee Pollen</h3>
+                        <p>A nutrient-rich supplement commonly positioned within immunity and energy support lines.</p>
+                        <div class="price">P28.00</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Produktvideo_ Forever Active Pro-B™.jpg" alt="Forever Active HA" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Joint Support</span>
+                        <h3>Forever Active HA</h3>
+                        <p>Hyaluronic acid support aimed at joint comfort and mobility-focused routines.</p>
+                        <div class="price">P32.00</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-section">
+            <h3 class="category-title">Weight Management</h3>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/Forever Lite Ultra Vanilla Shake.jpg" alt="Forever Lite Ultra" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Weight Management</span>
+                        <h3>Forever Lite Ultra</h3>
+                        <p>A shake mix designed to complement structured meal planning, training, and energy routines.</p>
+                        <div class="price">P55.00</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Forever Therm.jpg" alt="Forever Therm" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Weight Management</span>
+                        <h3>Forever Therm</h3>
+                        <p>Often used alongside exercise and dietary discipline to support active metabolism goals.</p>
+                        <div class="price">P29.00</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-section">
+            <h3 class="category-title">Personal Care</h3>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/Forever Living Bright Toothgel Zahnpasta Zahncreme 130 Neu.jpg" alt="Forever Bright Toothgel" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Oral Care</span>
+                        <h3>Forever Bright Toothgel</h3>
+                        <p>Fluoride-free Aloe-based toothpaste for daily oral care with a clean, simple presentation.</p>
+                        <div class="price">P12.50</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Aloe Heat Lotion.jpg" alt="Aloe Heat Lotion" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Body Care</span>
+                        <h3>Aloe Heat Lotion</h3>
+                        <p>A soothing lotion for tired muscles and skin comfort, popular in active lifestyle routines.</p>
+                        <div class="price">P22.00</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/Aloe moisturising lotion.jpg" alt="Aloe Moisturizing Lotion" class="product-img">
+                    <div class="product-info">
+                        <span class="product-tag">Skincare</span>
+                        <h3>Aloe Moisturizing Lotion</h3>
+                        <p>Hydrating skincare with Aloe for everyday softening and moisture support.</p>
+                        <div class="price">P24.00</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Forever Living</h3>
+                <p>Pure Aloe Vera wellness products inspired by nature, crafted for everyday health and personal care.</p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/foreverglobalhq/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/ForeverGlobalHQ" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/ForeverGlobalHQ" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCF2qBlStgHtEOM2nyPhC1XA" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Forever Living Products. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

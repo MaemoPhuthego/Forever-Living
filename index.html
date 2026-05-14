@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Forever Living - Pure Aloe Vera Products</title>
+     <link rel="icon" type="image/jpg" href="images/My journey.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <nav>
+        <a class="logo" href="index.html">
+            <img src="images/My journey.jpg" alt="Forever Living Logo">
+            Forever <span>Living</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html" class="">About</a></li>
+            <li><a href="healthcare.html" class="">Healthcare</a></li>
+            <li><a href="products.html" class="">Products</a></li>
+            <li><a href="feedback.html" class="">Feedback</a></li>
+            <li><a href="contact.html" class="">Contact</a></li>
+            <li><a href="sitemap.html" class="">SiteMap</a></li>
+        </ul>
+        <button class="menu-toggle" onclick="openSidebar()" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+</header>
+
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+<aside class="sidebar" id="mobileSidebar">
+    <div class="sidebar-header">
+        <div class="logo">Forever <span>Living</span></div>
+        <button class="close-sidebar" onclick="closeSidebar()" aria-label="Close menu">&times;</button>
+    </div>
+    <ul class="sidebar-links" style="text-decoration:none;">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html" class="">About</a></li>
+        <li><a href="healthcare.html" class="">Healthcare</a></li>
+        <li><a href="products.html" class="">Products</a></li>
+        <li><a href="feedback.html" class="">Feedback</a></li>
+        <li><a href="contact.html" class="">Contact</a></li>
+        <li><a href="sitemap.html" class="">SiteMap</a></li>
+    </ul>
+</aside>
+
+    <section class="page-section">
+        <div class="hero">
+            <h1>Unlock Your Potential with Aloe</h1>
+            <p>The world's largest grower, manufacturer and distributor of Aloe Vera products, bringing premium wellness solutions closer to everyday life.</p>
+            <a class="btn" href="products.html">Shop Now</a>
+
+            <div class="d-flex flex-wrap justify-content-center gap-3 my-4">
+             <span class="badge rounded-pill fs-6 p-3" style="background-color: var(--primary-green);">🌍 160+ Countries</span>
+             <span class="badge rounded-pill fs-6 p-3" style="background-color: var(--primary-green);">🌿 9.5M+ Customers</span>
+             <span class="badge rounded-pill fs-6 p-3" style="background-color: var(--primary-green);">⭐ 45+ Years of Quality</span>
+            </div>
+        </div>
+
+        <h2>Why Choose Forever?</h2>
+        <div class="features">
+           <div class="feature-card">
+              <h3>Pure &amp; Potent</h3>
+              <p>Our Aloe Vera Gels are stabilized to retain the full benefits of the inner leaf, delivering quality you can trust.</p>
+           </div>
+           <div class="feature-card">
+              <h3>Global Reach</h3>
+              <p>Operating in over 160 countries, Forever Living has built a reputation for consistent quality and reliable distribution.</p>
+           </div>
+           <div class="feature-card">
+              <h3>Science Based</h3>
+              <p>Backed by decades of research, careful processing, and rigorous quality control standards—not vibes and wishful thinking.</p>
+           </div>
+        </div>
+    </section>
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Forever Living</h3>
+                <p>Pure Aloe Vera wellness products inspired by nature, crafted for everyday health and personal care.</p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/foreverglobalhq/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/ForeverGlobalHQ" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/ForeverGlobalHQ" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCF2qBlStgHtEOM2nyPhC1XA" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Forever Living Products. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
